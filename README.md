@@ -59,11 +59,15 @@ python index.py
 ## 📂 Project Structure
 ```
 langchain-google-gemini-integration/
-├── .env                 # API key configuration file
-├── index.py             # Main script to demonstrate LangChain + Gemini integration
-├── requirements.txt     # Optional: Use for dependencies
-├── README.md            # Documentation file
-├── venv/                # Virtual environment
+├── .env                                     # API key configuration file
+├── gemini.py                                # Gemini AI LLM Model configurations file
+├── index.py                                 # Simple script that translate word from English to Italian
+├── prompt_template_single_variable.py       # Example of single variable usage in Prompt Template
+├── prompt_template_multiple_variable.py     # Example of multiple variable usage in Prompt Template
+├── prompt_template_conditional_prompts.py   # Example of conditional variable usage in Prompt Template
+├── requirements.txt                         # Optional: Use for dependencies
+├── README.md                                # Documentation file
+├── venv/                                    # Virtual environment
 ```
 
 ---
